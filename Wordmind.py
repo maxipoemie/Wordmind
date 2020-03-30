@@ -35,9 +35,8 @@ def spel_input():
 
 
 naam  = input("Wat is je naam? ")
-while nog_een_keer_spelen != "N":
+while nog_een_keer_spelen != "n":
     spel_input()
     nog_een_keer_spelen = input("Wil je nog een keer spelen? j/n ")
 print("Tot ziens!")
-
 
